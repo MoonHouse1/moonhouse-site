@@ -38,12 +38,46 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+// Structured data for search and AI answer engines. Every value mirrors copy
+// already published on the page (footer, founder cards, meta description).
+// No logo: app/icon.tsx is 32px, below Google's 112px minimum for a logo.
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": "https://moonhouse.ai/#organization",
+  name: "MoonHouse",
+  legalName: "MoonHouse Ventures, LLC",
+  url: "https://moonhouse.ai",
+  description,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Los Angeles",
+    addressRegion: "CA",
+    addressCountry: "US",
+  },
+  founder: [
+    { "@type": "Person", name: "Kyle Schneider", jobTitle: "Co-Founder" },
+    { "@type": "Person", name: "Kassra Daneshmir", jobTitle: "Co-Founder" },
+  ],
+};
+
+// Static, developer-controlled object — no user input. "<" is escaped so the
+// payload can never close the script tag.
+const organizationJsonLdHtml = JSON.stringify(organizationJsonLd).replace(
+  /</g,
+  "\\u003c",
+);
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: organizationJsonLdHtml }}
+        />
         {children}
         <Analytics />
         <SpeedInsights />
