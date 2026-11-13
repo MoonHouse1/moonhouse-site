@@ -1,7 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt =
-  "MoonHouse — AI agents for operators who run real businesses";
+export const alt = "MoonHouse — AI estimating agents for trade contractors";
 export const size = {
   width: 1200,
   height: 630,
@@ -13,8 +12,7 @@ export default function OpenGraphImage() {
     (
       <div
         style={{
-          background:
-            "radial-gradient(ellipse 80% 55% at 20% 10%, rgba(107,142,255,0.28), transparent 60%), radial-gradient(ellipse 60% 45% at 85% 0%, rgba(201,163,255,0.22), transparent 60%), #0a0e1a",
+          background: "#ffffff",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -22,7 +20,7 @@ export default function OpenGraphImage() {
           justifyContent: "space-between",
           padding: 80,
           fontFamily: "Georgia, serif",
-          color: "#f5f7fa",
+          color: "#14201f",
         }}
       >
         <div
@@ -33,6 +31,7 @@ export default function OpenGraphImage() {
             fontSize: 24,
             fontWeight: 500,
             letterSpacing: "-0.01em",
+            color: "#2d4c52",
           }}
         >
           <span>MoonHouse</span>
@@ -41,39 +40,25 @@ export default function OpenGraphImage() {
               fontFamily: "monospace",
               fontSize: 16,
               letterSpacing: "0.18em",
-              color: "#8b9bb4",
+              color: "#5b7278",
               textTransform: "uppercase",
             }}
           >
-            AI agents for operators
+            AI estimating agents
           </span>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
           <div
             style={{
-              fontSize: 80,
+              fontSize: 64,
               fontWeight: 500,
-              lineHeight: 1.02,
+              lineHeight: 1.05,
               letterSpacing: "-0.02em",
               maxWidth: 980,
+              color: "#2d4c52",
             }}
           >
-            Agents for every industry.
-          </div>
-          <div
-            style={{
-              fontSize: 80,
-              fontWeight: 500,
-              lineHeight: 1.02,
-              letterSpacing: "-0.02em",
-              background:
-                "linear-gradient(135deg, #6b8eff 0%, #c9a3ff 60%, #ffb67a 100%)",
-              backgroundClip: "text",
-              color: "transparent",
-              display: "flex",
-            }}
-          >
-            Built by operators.
+            Planning estimates that show their work.
           </div>
         </div>
         <div
@@ -83,11 +68,11 @@ export default function OpenGraphImage() {
             fontFamily: "monospace",
             fontSize: 16,
             letterSpacing: "0.14em",
-            color: "#5a6b85",
+            color: "#5b7278",
             textTransform: "uppercase",
           }}
         >
-          <span>20 verticals · 160 agents · Live in weeks</span>
+          <span>25 trades · every line cited</span>
           <span>moonhouse.ai</span>
         </div>
       </div>

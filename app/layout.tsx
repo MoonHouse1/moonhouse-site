@@ -17,14 +17,14 @@ const inter = Inter({
 });
 
 const description =
-  "MoonHouse deploys AI agents across 20 industries. 160 production-ready agents — operator-built, vertical-aware, live in weeks.";
+  "MoonHouse builds planning-estimate AI agents for trade contractors — one deployment per trade, every line cited, arithmetic re-checked in code before it reaches a client.";
 
 export const metadata: Metadata = {
-  title: "MoonHouse — AI agents for operators who run real businesses",
+  title: "MoonHouse — AI estimating agents for trade contractors",
   description,
   metadataBase: new URL("https://moonhouse.ai"),
   openGraph: {
-    title: "MoonHouse — AI agents for operators who run real businesses",
+    title: "MoonHouse — AI estimating agents for trade contractors",
     description,
     url: "https://moonhouse.ai",
     siteName: "MoonHouse",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "MoonHouse — AI agents for operators who run real businesses",
+    title: "MoonHouse — AI estimating agents for trade contractors",
     description,
   },
   robots: { index: true, follow: true },
