@@ -43,7 +43,7 @@ export default function Page() {
               href="/how-it-works"
               className="text-sm text-[var(--mh-teal)] underline underline-offset-4 hover:no-underline"
             >
-              See a real sample estimate &darr;
+              See a sample estimate &darr;
             </Link>
           </div>
         </div>
@@ -65,7 +65,7 @@ export default function Page() {
             ))}
           </div>
           <p className="mt-10 figure-caption">
-            Fig. 1 — the full mechanism, with a real flagged-line output, is on{" "}
+            Fig. 1 — the full mechanism, with a sample flagged-line output, is on{" "}
             <Link href="/how-it-works" className="underline">
               /how-it-works
             </Link>
