@@ -18,8 +18,7 @@ function Wordmark() {
 }
 
 const LINKS = [
-  { href: "/how-it-works", label: "How it works" },
-  { href: "/pricing", label: "Pricing" },
+  { href: "/how-it-works", label: "Example build" },
 ];
 
 export function SiteNav() {

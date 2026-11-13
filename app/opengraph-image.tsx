@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "MoonHouse — AI estimating agents for trade contractors";
+export const alt = "MoonHouse — AI consultancy for owner-operated businesses";
 export const size = {
   width: 1200,
   height: 630,
@@ -44,7 +44,7 @@ export default function OpenGraphImage() {
               textTransform: "uppercase",
             }}
           >
-            AI estimating agents
+            AI consultancy
           </span>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
@@ -58,7 +58,7 @@ export default function OpenGraphImage() {
               color: "#2d4c52",
             }}
           >
-            Planning estimates that show their work.
+            AI that does real work in your business.
           </div>
         </div>
         <div
@@ -72,7 +72,7 @@ export default function OpenGraphImage() {
             textTransform: "uppercase",
           }}
         >
-          <span>25 trades · every line cited</span>
+          <span>Audit · build · govern</span>
           <span>moonhouse.ai</span>
         </div>
       </div>

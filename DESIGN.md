@@ -67,7 +67,7 @@ No third typeface. No display face beyond Fraunces.
 
 - **Figure captions, used literally.** Any real artifact on the page (the sample estimate, the trade registry table) gets a caption in the style `Fig. 1 — Sample HVAC estimate, anonymized real output, three lines flagged.` This is the single most load-bearing device in the register — it is what turns a claim into an artifact.
 - **Visible structural rule lines** at major section boundaries (`--mh-rule`), not implied whitespace.
-- **Tables over cards** wherever the content is actually tabular (the 25-trade registry, the sample estimate's line items, the pricing worked example). Cards are for the three "how we build" principles only.
+- **Tables over cards** wherever the content is actually tabular (the 25-trade registry, the sample estimate's line items, the former pricing worked example). Cards are for the three "how we build" principles only.
 - **No centered-stack-of-equal-cards hero.** The homepage hero is left-aligned, with the sample-estimate teaser or the trade count as the adjacent "figure," not a floating illustration.
 
 ---
@@ -98,3 +98,12 @@ This project's hard rule, restated for this file so it travels with the design s
 - A stat strip of numbers that are not independently checkable from a linked source
 - Testimonial carousels
 - Any color outside the token table above
+
+
+## POSITIONING UPDATE — 2026-11-13 (Kyle direct)
+
+MoonHouse is now positioned as an **AI consultancy for owner-operated businesses**, run solo by Kyle Schneider. The estimating agent is the **example build** (`/how-it-works`), not the product. Rules:
+
+- No public price. `/pricing` was removed; the $2,000 + $1,000/mo figures were the agent-suite offer and are not confirmed for consulting. Do not publish a price without a vault source.
+- The three services (Audit, Build, Govern) are a drafted offer pending Kyle's confirmation.
+- Never name a former member, a client, or a deployment. "kassra" and "co-founder" are banned strings in `tests/e2e/content.spec.ts`.

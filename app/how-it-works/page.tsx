@@ -4,7 +4,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { CalendlyCta } from "@/components/cta";
 
 export const metadata: Metadata = {
-  title: "How it works — MoonHouse",
+  title: "Example build: the estimating agent — MoonHouse",
   description:
     "How the MoonHouse trade estimator builds a planning estimate, cites its sources, and re-checks its own arithmetic in code before anything reaches a client.",
 };
@@ -39,14 +39,15 @@ export default function HowItWorksPage() {
 
       <section className="border-b border-[var(--mh-rule)]">
         <div className="mx-auto max-w-3xl px-6 pb-14 pt-20">
-          <div className="eyebrow">How it works</div>
+          <div className="eyebrow">Example build · the estimating agent</div>
           <h1 className="mt-6 font-serif">
             The estimate checks its own math before you do.
           </h1>
           <p className="mt-6 text-lg text-[var(--mh-muted)]">
-            Most AI-estimating pitches describe a review step in the abstract.
-            Below is the real mechanism, followed by an actual flagged-line
-            output from the system — anonymized, unedited.
+            One thing MoonHouse has built: a planning-estimate agent for
+            construction trades. Below is how it works, followed by a sample
+            flagged-line output modelled on a production estimate, with the
+            contractor&apos;s details removed.
           </p>
         </div>
       </section>
