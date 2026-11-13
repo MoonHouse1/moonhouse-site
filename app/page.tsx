@@ -138,19 +138,13 @@ export default function Page() {
       <section id="about" className="border-b border-[var(--mh-rule)]">
         <div className="mx-auto max-w-5xl px-6 py-20">
           <div className="eyebrow">Who&apos;s behind it</div>
-          <h2 className="mt-4 max-w-2xl">Two co-founders, direct contact.</h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2">
+          <h2 className="mt-4 max-w-2xl">Direct contact with the founder.</h2>
+          <div className="mt-10 grid gap-6 sm:max-w-md">
             <FounderCard
               initials="KS"
               name="Kyle Schneider"
-              role="Co-Founder"
+              role="Founder"
               email="kyle@moonhouse.ai"
-            />
-            <FounderCard
-              initials="KD"
-              name="Kassra Daneshmir"
-              role="Co-Founder"
-              email="kassra@moonhouse.ai"
             />
           </div>
         </div>

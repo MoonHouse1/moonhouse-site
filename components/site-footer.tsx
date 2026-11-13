@@ -11,10 +11,6 @@ export function SiteFooter() {
           <EmailLink location="footer" address="kyle@moonhouse.ai">
             kyle@moonhouse.ai
           </EmailLink>
-          {" · "}
-          <EmailLink location="footer" address="kassra@moonhouse.ai">
-            kassra@moonhouse.ai
-          </EmailLink>
           {" · (818) 399-5833"}
         </div>
         <div className="font-mono text-xs">&copy; 2026 MoonHouse Ventures, LLC</div>

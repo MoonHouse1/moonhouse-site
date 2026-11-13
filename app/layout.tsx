@@ -55,10 +55,7 @@ const organizationJsonLd = {
     addressRegion: "CA",
     addressCountry: "US",
   },
-  founder: [
-    { "@type": "Person", name: "Kyle Schneider", jobTitle: "Co-Founder" },
-    { "@type": "Person", name: "Kassra Daneshmir", jobTitle: "Co-Founder" },
-  ],
+  founder: [{ "@type": "Person", name: "Kyle Schneider", jobTitle: "Founder" }],
 };
 
 // Static, developer-controlled object — no user input. "<" is escaped so the
