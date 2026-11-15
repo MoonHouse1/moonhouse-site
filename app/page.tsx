@@ -280,18 +280,12 @@ export default function Page() {
                 cost.
               </p>
 
-              <div className="mt-10 grid gap-6 sm:grid-cols-2">
+              <div className="mt-10 grid gap-6 sm:max-w-md">
                 <FounderCard
                   initials="KS"
                   name="Kyle Schneider"
-                  role="Co-Founder"
+                  role="Founder"
                   email="kyle@moonhouse.ai"
-                />
-                <FounderCard
-                  initials="KD"
-                  name="Kassra Daneshmir"
-                  role="Co-Founder"
-                  email="kassra@moonhouse.ai"
                 />
               </div>
             </div>
@@ -327,7 +321,7 @@ export default function Page() {
             <div className="mt-10 flex flex-col items-center gap-4">
               <CTA variant="primary">Book a 30-minute call</CTA>
               <div className="font-mono text-xs tracking-widest text-[#5a6b85]">
-                kyle@moonhouse.ai · kassra@moonhouse.ai · (818) 399-5833
+                kyle@moonhouse.ai · (818) 399-5833
               </div>
             </div>
           </div>
